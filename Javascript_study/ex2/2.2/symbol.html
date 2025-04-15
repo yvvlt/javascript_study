@@ -1,0 +1,9 @@
+<script>
+    const member = {name:"홍길동", age:20}
+    let id = Symbol('id');
+    member[id] = 'kdhong';
+
+    document.write(member[id] + "<br>");
+    document.write(typeof id + "<br>");
+    document.write(id === Symbol('id'));
+</script>
