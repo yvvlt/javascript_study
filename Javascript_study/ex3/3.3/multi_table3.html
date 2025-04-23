@@ -4,14 +4,14 @@
     <script>
         let result;
         let text = "";
-        text += "<table boreder='1'>";
+        text += "<table border='1'>";
         for (let y=1;y<=9;y++){
             text += "<tr>";
             for (let x=2;x<=9;x++){
                 result = x*y;
-                document.write("<td>" + x + "x" + y + "=" + result + "</td>");
+                text += "<td>" + x + "x" + y + "=" + result + "</td>";
             }
-            document.write("</tr>");
+            text += "</tr>";
         }
         text += "</table>";
 
