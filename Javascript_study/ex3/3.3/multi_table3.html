@@ -1,0 +1,20 @@
+<h3>구구단 표</h3>
+<p id="show"></p>
+<body>
+    <script>
+        let result;
+        let text = "";
+        text += "<table boreder='1'>";
+        for (let y=1;y<=9;y++){
+            text += "<tr>";
+            for (let x=2;x<=9;x++){
+                result = x*y;
+                document.write("<td>" + x + "x" + y + "=" + result + "</td>");
+            }
+            document.write("</tr>");
+        }
+        text += "</table>";
+
+        document.getElementById("show").innerHTML = text;
+    </script>
+</body>
