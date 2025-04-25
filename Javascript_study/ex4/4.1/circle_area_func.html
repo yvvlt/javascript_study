@@ -1,1 +1,13 @@
 <p id="show"></p>
+<script>
+    function circleArea(r) {
+        let result = r*r*3.14;
+        return result;
+    }
+
+    let radius = 8;
+    let area;
+
+    area = circleArea(radius);
+    document.getElementById("show").innerHTML = "원의 넓이: " + area;
+</script>
