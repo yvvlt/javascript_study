@@ -1,0 +1,12 @@
+<p id="show"></p>
+<script>
+    function sumScores(...scores) {
+        let sum = 0;
+        for (let score of scores) {
+            sum += score;
+        }
+        return sum;
+    }
+    let sum = sumScores(70,80,90,100);
+    document.getElementById("show").innerHTML = "합계: " + sum;
+</script>
