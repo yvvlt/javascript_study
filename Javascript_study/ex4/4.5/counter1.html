@@ -1,0 +1,11 @@
+<button onclick="incCounter()">+</button>
+<p id="show">0</p>
+
+<script>
+    let counter = 0;
+
+    const incCounter = function () {
+        counter += 1;
+        document.getElementById("show").innerHTML = counter;
+    }
+</script>
