@@ -1,0 +1,15 @@
+<button onclick="incCounter()">+</button>
+<p id="show">0</p>
+<script>
+    const increase = (function() {
+        let counter = 0;
+        return function() {
+            counter += 1;
+            return counter;
+        }
+    })();
+
+    function incCounter() {
+        document.getElementById("show").innerHTML = increase();
+    }
+</script>
