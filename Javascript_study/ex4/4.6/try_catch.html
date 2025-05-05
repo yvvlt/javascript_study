@@ -1,0 +1,10 @@
+<p id="show"></p>
+<script>
+    try {
+        alerttttt("안녕하세요.");
+        document.write("test!");
+    }
+    catch(err) {
+        document.getElementById("show").innerHTML = err.message;
+    }
+</script>
