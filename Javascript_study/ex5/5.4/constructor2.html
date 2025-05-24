@@ -8,4 +8,10 @@
             return "나의 이름은 " + this.name + "입니다.";
         }
     };
+
+    const mem1 = new Member ("kdhong", "홍길동", 25);
+    let text = "";
+    text += mem1.id + "<br>";
+    text += mem1.getName();
+    document.getElementById("show").innerHTML = text;
 </script>
