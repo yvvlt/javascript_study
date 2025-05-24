@@ -9,5 +9,9 @@
     Member.company = "현대";
 
     const mem1 = new Member("kdhong", "홍길동", 25);
-    
+
+    let text = "";
+    text += mem1.name + "<br>";
+    text += mem1.company;
+    document.getElementById("show").innerHTML = text;
 </script>
