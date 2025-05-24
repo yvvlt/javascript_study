@@ -1,1 +1,11 @@
 <p id="show"></p>
+<script>
+    function Member(id,name,age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.getName = function() {
+            return "나의 이름은 " + this.name + "입니다.";
+        }
+    };
+</script>
