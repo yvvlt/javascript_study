@@ -12,5 +12,8 @@
 
     const mem1 = new Member("kdhong","홍길동",25);
 
-    
+    let text = "";
+    text += mem1.company + "<br>";
+    text += mem1.getId();
+    document.getElementById("show").innerHTML = text;
 </script>
