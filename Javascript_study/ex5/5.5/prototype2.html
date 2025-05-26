@@ -4,5 +4,9 @@
         this.id = id;
         this.name = name;
         this.age = age;
+    };
+    Member.prototype.company = "현대";
+    Member.prototype.getId = function() {
+        return "아이디는 " + this.id + "입니다.";
     }
 </script>
