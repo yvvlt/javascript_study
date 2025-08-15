@@ -3,13 +3,14 @@
     let str1 = "    javascript string    ";
     let str2 = str1.trimEnd();
     text = "";
+    
     for (let x of str2) {
         if (x=="")
             text += "#";
         else
             text += x;
     }
-    
+
     text += "<br>";
     text += str1.length + "<br>";
     text += str2.length;
