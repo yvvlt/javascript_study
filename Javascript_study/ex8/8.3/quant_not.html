@@ -3,4 +3,6 @@
     let str1 = "his cat her cat your cat";
     let pattern = /cat(?!your)/g;
     let result = str1.replace(pattern, "CAT");
+
+    document.getElementById("show").innerHTML = result;
 </script>
