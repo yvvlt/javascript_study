@@ -1,4 +1,8 @@
 <button onclick="showMessage1()">클릭하세요!</button><br>
 <button ondblclick="showMessage2()">더블 클릭하세요!</button>
 <p id="show"></p>
-<script></script>
+<script>
+    function showMessage1() {
+        document.getElementById("show").innerHTML = "클릭했어요!";
+    }
+</script>
